@@ -1,0 +1,13 @@
+name = "tv-series-bot"
+main = "src/index.ts"
+compatibility_date = "2023-01-15"
+usage_model = "bundled"
+env = { }
+
+[triggers]
+crons = [ "*/30 * * * *" ]
+
+[vars]
+GITHUB_PERSONAL_ACCESS_TOKEN = "INSERT_HERE"
+TMDB_V4_ACCESS_TOKEN = "INSERT_HERE"
+TMDB_LIST_ID = "INSERT_HERE"
